@@ -1,0 +1,369 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "users": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Wireless Bluetooth Headphones",
+      "originalPrice": 79.99,
+      "salePrice": 59.99,
+      "discountPercentage": 25,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+      "description": "Premium wireless headphones with clear sound and comfortable ear cushions.",
+      "rating": {
+        "rate": 4.5,
+        "count": 320
+      },
+      "soldCount": 1250
+    },
+    {
+      "id": 2,
+      "productName": "Smart Watch Series 5",
+      "originalPrice": 119.99,
+      "salePrice": 89.99,
+      "discountPercentage": 25,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+      "description": "Modern smartwatch with fitness tracking, notifications and heart-rate monitoring.",
+      "rating": {
+        "rate": 4.4,
+        "count": 280
+      },
+      "soldCount": 980
+    },
+    {
+      "id": 3,
+      "productName": "Portable Bluetooth Speaker",
+      "originalPrice": 54.99,
+      "salePrice": 39.99,
+      "discountPercentage": 27,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600",
+      "description": "Compact wireless speaker with powerful sound and long battery life.",
+      "rating": {
+        "rate": 4.3,
+        "count": 190
+      },
+      "soldCount": 760
+    },
+    {
+      "id": 4,
+      "productName": "Classic Cotton T-Shirt",
+      "originalPrice": 34.99,
+      "salePrice": 24.99,
+      "discountPercentage": 29,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600",
+      "description": "Comfortable premium cotton t-shirt suitable for everyday wear.",
+      "rating": {
+        "rate": 4.6,
+        "count": 410
+      },
+      "soldCount": 1450
+    },
+    {
+      "id": 5,
+      "productName": "Classic Denim Jacket",
+      "originalPrice": 89.99,
+      "salePrice": 64.99,
+      "discountPercentage": 28,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=600",
+      "description": "Stylish denim jacket with a classic fit and durable construction.",
+      "rating": {
+        "rate": 4.4,
+        "count": 230
+      },
+      "soldCount": 820
+    },
+    {
+      "id": 6,
+      "productName": "Running Sneakers",
+      "originalPrice": 109.99,
+      "salePrice": 74.99,
+      "discountPercentage": 32,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+      "description": "Lightweight running sneakers designed for comfort and daily activities.",
+      "rating": {
+        "rate": 4.7,
+        "count": 520
+      },
+      "soldCount": 1670
+    },
+    {
+      "id": 7,
+      "productName": "Modern Table Lamp",
+      "originalPrice": 49.99,
+      "salePrice": 34.99,
+      "discountPercentage": 30,
+      "category": "home & living",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600",
+      "description": "Elegant table lamp that adds warm and modern lighting to your room.",
+      "rating": {
+        "rate": 4.5,
+        "count": 180
+      },
+      "soldCount": 690
+    },
+    {
+      "id": 8,
+      "productName": "Decorative Cushion Set",
+      "originalPrice": 44.99,
+      "salePrice": 29.99,
+      "discountPercentage": 33,
+      "category": "home & living",
+      "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600",
+      "description": "Soft decorative cushions designed to enhance your living room.",
+      "rating": {
+        "rate": 4.3,
+        "count": 150
+      },
+      "soldCount": 540
+    },
+    {
+      "id": 9,
+      "productName": "Minimal Wall Clock",
+      "originalPrice": 39.99,
+      "salePrice": 27.99,
+      "discountPercentage": 30,
+      "category": "home & living",
+      "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=600",
+      "description": "Minimal wall clock with a clean design for modern interiors.",
+      "rating": {
+        "rate": 4.2,
+        "count": 120
+      },
+      "soldCount": 430
+    },
+    {
+      "id": 10,
+      "productName": "Hydrating Face Cream",
+      "originalPrice": 29.99,
+      "salePrice": 19.99,
+      "discountPercentage": 33,
+      "category": "beauty",
+      "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600",
+      "description": "Hydrating face cream that keeps your skin soft and moisturized.",
+      "rating": {
+        "rate": 4.6,
+        "count": 340
+      },
+      "soldCount": 1120
+    },
+    {
+      "id": 11,
+      "productName": "Vitamin C Serum",
+      "originalPrice": 34.99,
+      "salePrice": 22.99,
+      "discountPercentage": 34,
+      "category": "beauty",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
+      "description": "Vitamin C serum designed to brighten and refresh your skin.",
+      "rating": {
+        "rate": 4.5,
+        "count": 290
+      },
+      "soldCount": 950
+    },
+    {
+      "id": 12,
+      "productName": "Makeup Brush Set",
+      "originalPrice": 39.99,
+      "salePrice": 25.99,
+      "discountPercentage": 35,
+      "category": "beauty",
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600",
+      "description": "Professional makeup brush set with soft and durable bristles.",
+      "rating": {
+        "rate": 4.4,
+        "count": 210
+      },
+      "soldCount": 730
+    },
+    {
+      "id": 13,
+      "productName": "Premium Yoga Mat",
+      "originalPrice": 49.99,
+      "salePrice": 32.99,
+      "discountPercentage": 34,
+      "category": "sports",
+      "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600",
+      "description": "Non-slip yoga mat designed for yoga, stretching and home workouts.",
+      "rating": {
+        "rate": 4.7,
+        "count": 380
+      },
+      "soldCount": 1340
+    },
+    {
+      "id": 14,
+      "productName": "Adjustable Dumbbells",
+      "originalPrice": 109.99,
+      "salePrice": 79.99,
+      "discountPercentage": 27,
+      "category": "sports",
+      "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600",
+      "description": "Adjustable dumbbells suitable for strength training at home.",
+      "rating": {
+        "rate": 4.6,
+        "count": 260
+      },
+      "soldCount": 870
+    },
+    {
+      "id": 15,
+      "productName": "Sports Water Bottle",
+      "originalPrice": 27.99,
+      "salePrice": 18.99,
+      "discountPercentage": 32,
+      "category": "sports",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600",
+      "description": "Reusable sports water bottle with a leak-resistant design.",
+      "rating": {
+        "rate": 4.5,
+        "count": 240
+      },
+      "soldCount": 1010
+    },
+    {
+      "id": 16,
+      "productName": "Remote Control Racing Car",
+      "originalPrice": 59.99,
+      "salePrice": 44.99,
+      "discountPercentage": 25,
+      "category": "toys",
+      "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600",
+      "description": "Fast remote control racing car with a durable design.",
+      "rating": {
+        "rate": 4.5,
+        "count": 190
+      },
+      "soldCount": 720
+    },
+    {
+      "id": 17,
+      "productName": "Building Blocks Set",
+      "originalPrice": 49.99,
+      "salePrice": 35.99,
+      "discountPercentage": 28,
+      "category": "toys",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600",
+      "description": "Creative building blocks set for developing imagination and problem-solving skills.",
+      "rating": {
+        "rate": 4.8,
+        "count": 430
+      },
+      "soldCount": 1280
+    },
+    {
+      "id": 18,
+      "productName": "Plush Teddy Bear",
+      "originalPrice": 29.99,
+      "salePrice": 21.99,
+      "discountPercentage": 27,
+      "category": "toys",
+      "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=600",
+      "description": "Soft and adorable plush teddy bear suitable for children.",
+      "rating": {
+        "rate": 4.6,
+        "count": 280
+      },
+      "soldCount": 890
+    },
+    {
+      "id": 19,
+      "productName": "Organic Basmati Rice",
+      "originalPrice": 19.99,
+      "salePrice": 14.99,
+      "discountPercentage": 25,
+      "category": "groceries",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600",
+      "description": "Premium long-grain basmati rice suitable for everyday cooking.",
+      "rating": {
+        "rate": 4.7,
+        "count": 510
+      },
+      "soldCount": 1820
+    },
+    {
+      "id": 20,
+      "productName": "Organic Honey",
+      "originalPrice": 17.99,
+      "salePrice": 12.99,
+      "discountPercentage": 28,
+      "category": "groceries",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600",
+      "description": "Natural organic honey with a rich and smooth taste.",
+      "rating": {
+        "rate": 4.6,
+        "count": 340
+      },
+      "soldCount": 1240
+    },
+    {
+      "id": 21,
+      "productName": "Premium Green Tea",
+      "originalPrice": 14.99,
+      "salePrice": 9.99,
+      "discountPercentage": 33,
+      "category": "groceries",
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600",
+      "description": "Refreshing green tea made from carefully selected tea leaves.",
+      "rating": {
+        "rate": 4.4,
+        "count": 230
+      },
+      "soldCount": 970
+    },
+    {
+      "id": 22,
+      "productName": "The Art of Programming",
+      "originalPrice": 44.99,
+      "salePrice": 29.99,
+      "discountPercentage": 33,
+      "category": "books",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600",
+      "description": "A practical guide to programming concepts and software development.",
+      "rating": {
+        "rate": 4.8,
+        "count": 620
+      },
+      "soldCount": 1560
+    },
+    {
+      "id": 23,
+      "productName": "Modern JavaScript Guide",
+      "originalPrice": 49.99,
+      "salePrice": 34.99,
+      "discountPercentage": 30,
+      "category": "books",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600",
+      "description": "Learn modern JavaScript concepts with practical examples.",
+      "rating": {
+        "rate": 4.7,
+        "count": 480
+      },
+      "soldCount": 1190
+    },
+    {
+      "id": 24,
+      "productName": "React Development Handbook",
+      "originalPrice": 59.99,
+      "salePrice": 39.99,
+      "discountPercentage": 33,
+      "category": "books",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600",
+      "description": "A practical handbook for building modern React applications.",
+      "rating": {
+        "rate": 4.9,
+        "count": 710
+      },
+      "soldCount": 1740
+    }
+  ]
+}
